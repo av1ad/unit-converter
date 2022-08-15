@@ -1,0 +1,89 @@
+:root {
+    --purple: #6934FF;
+    --light-purple: #B295FF;
+    --lighter-purple: #CCC1FF;
+    --dark-navy: #1F2837;
+    --light-navy: #273549;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+}
+
+#header {
+    background-color: var(--purple);
+    color: var(--white);
+    height: 250px;
+    padding-top: 1px;
+}
+
+#number-input {
+    width: 100px;
+    height: 70px;
+    background-color: var(--purple);
+    border: 2px solid var(--light-purple);
+    border-radius: 5px;
+    font-size: 50px;
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;;
+}
+
+#convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#convert-btn {
+    background-color: var(--white);
+    border: none;
+    padding: 10px 35px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+#convert-btn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+
+#measurements {
+    background-color: var(--dark-navy);
+    padding: 20px 20px 20px 20px;
+}
+
+.measurement-wrapper {
+    background-color: var(--light-navy);
+    width: 500px;
+    margin: 25px auto;
+    padding: 5px;
+}
+
+h2 {
+    color: var(--lighter-purple);
+    font-size: 20px;
+}
+
+p {
+    color: var(--white);
+}
+
+#footer {
+    background-color: var(--light-navy);
+    padding: 20px 0;
+}
+#footer a {
+    color: var(--white);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <div id="convert">
+                <input type="number" id="number-input">
+                <button id="convert-btn">Convert</button>
+            </div>
+        </div>
+        <div id="measurements">
+            <div class="measurement-wrapper">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-el"></p>
+            </div>
+            <div class="measurement-wrapper">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-el"></p>
+            </div>
+            <div class="measurement-wrapper">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-el"></p>
+            </div>
+        </div>
+        <footer id="footer"><a href="https://github.com/jewelsonmyjeans" target="_blank">Created by Aviad Churaman</a></footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
