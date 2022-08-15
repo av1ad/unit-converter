@@ -23,5 +23,5 @@ convertBtn.addEventListener("click", function() {
 })
 
 function round(num) {
-    return +(Math.round(num + "e+2") + "e-2")
+    return +(Math.round(num + "e+3") + "e-3")
 }
