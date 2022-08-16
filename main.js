@@ -15,11 +15,11 @@ convertBtn.addEventListener("click", function() {
     let baseValue = numberInput.value
 
     lengthEl.textContent = `${baseValue} Meters = ${round(baseValue * meterToFeet)} Feet
-        | ${baseValue} Feet = ${round(baseValue * feetToMeter)}`
+        | ${baseValue} Feet = ${round(baseValue * feetToMeter)} Meters`
     volumeEl.textContent = `${baseValue} Liters = ${round(baseValue * literToGallon)} Gallons 
-        | ${baseValue} Gallons = ${round(baseValue * gallonToLiter)}`
+        | ${baseValue} Gallons = ${round(baseValue * gallonToLiter)} Liters`
     massEl.textContent = `${baseValue} Kilos = ${round(baseValue * kiloToPound)} Pounds 
-        | ${baseValue} Pounds = ${round(baseValue * poundToKilo)}`
+        | ${baseValue} Pounds = ${round(baseValue * poundToKilo)} Kilos`
 })
 
 function round(num) {
